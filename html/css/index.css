@@ -13,7 +13,7 @@ ul {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1250px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -21,11 +21,11 @@ ul {
 }
 
 .elementor-icon-list-icon>i {
-    color: #BCEDB6 !important;
+    color: #33CC66 !important;
 }
 
 .color-origin {
-    color: #BCEDB6;
+    color: #33CC66;
 }
 
 .color-525F81 {
@@ -58,4 +58,13 @@ ul {
 
 #section-1 div ul li span {
     padding-left: 10px;
+}
+
+.sub-menu {
+    top: auto;
+    left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    min-width: 10em;
+    max-width: 1000px;
 }
