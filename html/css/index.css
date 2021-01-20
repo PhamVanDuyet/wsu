@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: "Lexend Deca", Lexend Deca;
 }
 
 body {
@@ -10,6 +11,19 @@ body {
 ul {
     padding: 0px;
     margin: 0px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.float-r {
+    float: right;
 }
 
 .container {
@@ -60,11 +74,201 @@ ul {
     padding-left: 10px;
 }
 
-.sub-menu {
-    top: auto;
+.elementor-widget-container button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #33CC66;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 20px 15px 20px;
+    border: 1px solid #c36;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.elementor-button-wrapper a {
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #33CC66;
+    border-radius: 5px 5px 5px 5px;
+    padding: 15px 20px 15px 20px;
+}
+
+.elementor-column-i12 {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-element-i12 {
+    width: 100%;
+    position: relative;
+}
+
+.elementor-element-i13 {
+    padding: 30px 15px 30px 15px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.elementor-icon {
+    font-size: 60px;
+}
+
+.elementor-icon:before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 94px;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    -webkit-transform: rotate(22deg);
+    transform: rotate(22deg);
+    background: linear-gradient(62.5deg, transparent, rgba(47, 85, 212, .09));
+}
+
+.elementor-icon-list-items li {
+    margin-bottom: 15px;
+}
+
+.elementor-icon-list-items li .elementor-icon-list-text {
+    padding-left: 15px;
+    color: #525F81;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.elementor-widget-container {
+    margin: 0px 0px 15px 0px;
+}
+
+.elementor-element.elementor-element-033c468 .elementor-title {
+    color: #313E5B;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 3.3em;
+}
+
+.elementor-progress-wrapper {
+    background-color: #DCDEEB;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.elementor-progress-wrapper {
+    position: relative;
+    background-color: #eee;
+    color: #fff;
+    height: 100%;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.elementor-progress-wrapper .elementor-progress-bar {
+    background-color: #437EEB;
+}
+
+.elementor-progress-bar {
+    height: 4px;
+    line-height: 4px;
+    font-size: 16px;
+}
+
+#header {
+    background-image: url(https://wsu.vn/wp-content/uploads/2020/08/wsu-background-2.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 100px 0px 100px 0px;
+    width: 1423px;
     left: 0px;
-    margin-left: 0px;
+    position: relative;
+}
+
+#section-1 {
+    margin-top: -200px;
+}
+
+#section-2 {
+    position: sticky;
+    width: 1423px;
     margin-top: 0px;
-    min-width: 10em;
-    max-width: 1000px;
+    margin-bottom: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+
+#section-3 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#section-4 .w-33 {
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: #DEE2FB;
+}
+
+#section-5 {
+    background-image: url(https://wsu.vn/wp-content/uploads/2020/08/wsu-background-1.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1423px;
+    left: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+#section-5 {
+    background-image: url(https://wsu.vn/wp-content/uploads/2020/08/wsu-background-2.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1423px;
+    left: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+.h1-1001 {
+    color: #33CC66;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.h2-1001,
+.h2-1002 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+
+.h2-1001 {
+    color: #33CC66;
+}
+
+.h2-1002 {
+    color: #313E5B;
+}
+
+.h5-1001 {
+    color: #33CC66;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.p-1001 {
+    margin-bottom: .9rem;
+    color: #33CC66;
 }
