@@ -54,6 +54,14 @@ a {
     color: #525F81;
 }
 
+.bg-fff {
+    background-color: #ffffff;
+}
+
+.bg- {
+    background-color: #33CC66;
+}
+
 #section-1 .container {
     justify-content: space-between;
     min-height: 45px;
@@ -81,6 +89,186 @@ a {
 #section-1 div ul li span {
     padding-left: 10px;
 }
+
+#header {
+    /* background-image: url(https://wsu.vn/wp-content/uploads/2020/08/wsu-background-2.svg); */
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 100px 0px 0px 0px;
+    width: 1423px;
+    left: 0px;
+    position: relative;
+}
+
+#section-1 {
+    margin-top: -200px;
+}
+
+#section-2 {
+    position: sticky;
+    width: 1423px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+    z-index: 9999;
+}
+
+#section-22 {
+    position: sticky;
+    width: 1423px;
+    height: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 0px;
+    z-index: 9998;
+    opacity: .6;
+    background-color: #ffffff;
+}
+
+#section-3 {
+    margin-bottom: 30px;
+}
+
+#section-4 .w-35 {
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    border-color: #DEE2FB;
+}
+
+#section-5,
+#section-6,
+#section-10,
+#section-11 {
+    /* background-image: url("https://wsu.vn/wp-content/uploads/2020/08/wsu-background-2.svg"); */
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1423px;
+    left: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+#section-10 {
+    background-color: #EFF1FE;
+}
+
+#section-7 {
+    background-color: #33CC66;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1423px;
+    left: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+#section-9 {
+    background-color: #272F4A;
+    background-image: url(https://wsu.vn/wp-content/uploads/2020/08/footer-map.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 80px 0px 20px 0px;
+}
+
+#section-10 .w-25 {
+    width: calc(100% / 4 - 30px) !important;
+}
+
+#section-10 .w-33 {
+    width: calc(100% / 3 - 30px) !important;
+}
+
+.elementor-hover-1:hover {
+    background-color: #fff;
+}
+
+.h1-1001,
+.h1-1002,
+.h1-1003 {
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.h1-1001 {
+    color: #33CC66;
+    font-size: 50px;
+}
+
+.h1-1002 {
+    color: #33CC66;
+    font-size: 120px;
+    line-height: 85px;
+}
+
+.h1-1003 {
+    color: #313E5B;
+    font-size: 50px;
+}
+
+.h2-1001,
+.h2-1002 {
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+
+.h2-1001 {
+    font-size: 40px;
+    color: #33CC66;
+}
+
+.h2-1002 {
+    font-size: 40px;
+    color: #313E5B;
+}
+
+.h2-1003 {
+    font-size: 40px;
+    color: #313E5B;
+    font-weight: 400;
+}
+
+.h3-1001 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.h3-1001 {
+    color: #ffffff;
+}
+
+.h3-1002 {
+    color: #33CC66;
+    font-weight: 500;
+}
+
+.h5-1001 {
+    color: #33CC66;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.p-1001,
+.p-1002 {
+    margin-bottom: .9rem;
+}
+
+.p-1001 {
+    color: #33CC66;
+}
+
+
+/* abc */
 
 .elementor-widget-container button {
     font-size: 16px;
@@ -125,6 +313,10 @@ a {
 
 .elementor-icon {
     font-size: 60px;
+}
+
+.elementor-icon-1 svg {
+    width: 65px;
 }
 
 .elementor-icon:before {
@@ -268,144 +460,88 @@ input[type="submit"] {
     color: #A3B0D7;
 }
 
-#header {
-    /* background-image: url(https://wsu.vn/wp-content/uploads/2020/08/wsu-background-2.svg); */
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 100px;
-    margin-bottom: 0px;
-    padding: 100px 0px 0px 0px;
-    width: 1423px;
-    left: 0px;
-    position: relative;
+.elementor-icon-box-icon .elementor-animation- {
+    margin-top: 31px;
+    margin-left: -30px;
 }
 
-#section-1 {
-    margin-top: -200px;
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-#section-2 {
-    position: sticky;
-    width: 1423px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    top: 0px;
-    z-index: 9999;
-}
-
-#section-22 {
-    position: sticky;
-    width: 1423px;
-    height: 70px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    top: 0px;
-    z-index: 9998;
-    opacity: .6;
-    background-color: #ffffff;
-}
-
-#section-3 {
-    margin-bottom: 30px;
-}
-
-#section-4 .w-35 {
-    border-style: solid;
-    border-width: 0px 2px 0px 0px;
-    border-color: #DEE2FB;
-}
-
-#section-5,
-#section-6 {
-    /* background-image: url("https://wsu.vn/wp-content/uploads/2020/08/wsu-background-2.svg"); */
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1423px;
-    left: 0px;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    padding: 50px 0px 50px 0px;
-}
-
-#section-7 {
+.active1,
+.dot:hover {
     background-color: #33CC66;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1423px;
-    left: 0px;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    padding: 50px 0px 50px 0px;
 }
 
-#section-9 {
-    background-color: #272F4A;
-    background-image: url(https://wsu.vn/wp-content/uploads/2020/08/footer-map.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 80px 0px 20px 0px;
+.owl-prev,
+.owl-next {
+    background: none;
+    border: none;
+    display: none;
 }
 
-.h1-1001,
-.h1-1002 {
-    font-weight: 700;
-    line-height: 60px;
+.owl-next {
+    float: right;
 }
 
-.h1-1001 {
-    color: #33CC66;
-    font-size: 50px;
+.owl-prev,
+.owl-next:focus {
+    outline: none;
 }
 
-.h1-1002 {
-    color: #33CC66;
-    font-size: 120px;
-    line-height: 85px;
+.owl-next {
+    margin-left: calc(100% - 20px);
 }
 
-.h2-1001,
-.h2-1002 {
-    font-weight: 700;
-    text-transform: capitalize;
-    line-height: 50px;
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+    position: absolute;
+    z-index: 99;
+    top: 45%;
+    padding: 0px;
+    border: none;
+    border-radius: 50%;
+    background: none;
 }
 
-.h2-1001 {
-    font-size: 40px;
-    color: #33CC66;
+.slideshow-container:hover .owl-prev,
+.owl-next {
+    display: block;
 }
 
-.h2-1002 {
-    font-size: 40px;
-    color: #313E5B;
+.mg-center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.h3-1001 {
-    font-size: 25px;
-    font-weight: 700;
+.class-0001 {
+    top: -79px;
+    position: absolute;
+    left: -5px;
 }
 
-.h3-1001 {
-    color: #ffffff;
+.class-0002 {
+    top: -110px;
+    position: absolute;
+    left: 28px;
 }
 
-.h5-1001 {
-    color: #33CC66;
-    font-size: 16px;
-    font-weight: 400;
+.class-0002 .elementor-animation-::before {
+    left: -33px;
 }
 
-.p-1001,
-.p-1002 {
-    margin-bottom: .9rem;
+.class-0001 .elementor-animation-::before {
+    left: -33px;
 }
 
-.p-1001 {
-    color: #33CC66;
+.class-0003 .container .w-33 {
+    width: calc(100% / 3 - 30px) !important;
 }
