@@ -465,7 +465,8 @@ input[type="submit"] {
     margin-left: -30px;
 }
 
-.dot {
+.dot,
+.dot1 {
     cursor: pointer;
     height: 10px;
     width: 10px;
@@ -478,6 +479,11 @@ input[type="submit"] {
 
 .active1,
 .dot:hover {
+    background-color: #33CC66;
+}
+
+.active1,
+.dot1:hover {
     background-color: #33CC66;
 }
 
@@ -544,4 +550,8 @@ input[type="submit"] {
 
 .class-0003 .container .w-33 {
     width: calc(100% / 3 - 30px) !important;
+}
+
+.class-0004 .elementor-icon:before {
+    right: 130px !important;
 }
