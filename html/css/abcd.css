@@ -2435,10 +2435,6 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
     flex-shrink: 0
 }
 
-.elementor-widget-divider .elementor-icon {
-    font-size: var(--divider-icon-size)
-}
-
 .elementor-widget-divider .elementor-divider-separator {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2643,61 +2639,6 @@ ul.elementor-icon-list-items.elementor-inline-items .elementor-inline-item {
 
 .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
     font-size: 59px
-}
-
-.elementor-icon {
-    display: inline-block;
-    line-height: 1;
-    -webkit-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-    color: #818a91;
-    font-size: 50px;
-    text-align: center
-}
-
-.elementor-icon:hover {
-    color: #818a91
-}
-
-.elementor-icon i,
-.elementor-icon svg {
-    width: 1em;
-    height: 1em;
-    position: relative;
-    display: block
-}
-
-.elementor-icon i:before,
-.elementor-icon svg:before {
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%)
-}
-
-.elementor-icon i.fad {
-    width: auto
-}
-
-.elementor-view-stacked .elementor-icon {
-    padding: .5em;
-    background-color: #818a91;
-    color: #fff;
-    fill: #fff
-}
-
-.elementor-view-framed .elementor-icon {
-    padding: .5em;
-    color: #818a91;
-    border: 3px solid #818a91;
-    background-color: transparent
-}
-
-.elementor-shape-circle .elementor-icon {
-    -webkit-border-radius: 50%;
-    border-radius: 50%
 }
 
 @media (min-width:768px) {
