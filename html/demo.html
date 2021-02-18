@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box
+        }
+        
+        .mySlides1,
+        .mySlides2 {
+            display: none
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+        /* Slideshow container */
+        
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a grey background color */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: #f1f1f1;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align:center">Multiple Slideshows</h2>
+
+    <p>Slideshow 1:</p>
+    <div class="slideshow-container">
+        <div class="mySlides1">
+            <img src="img/logo-1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides1">
+            <img src="img/logo-2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides1">
+            <img src="img/logo-3.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 0)" style="background-color: brown;">&#10094;sssssssssssssssssssss</a>
+        <a class="next" onclick="plusSlides(1, 0)" style="background-color: brown;">&#10095;sssssssssssssssss</a>
+    </div>
+
+    <p>Slideshow 2:</p>
+    <div class="slideshow-container">
+        <div class="mySlides2">
+            <img src="img/logo-4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides2">
+            <img src="img/logo-5.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides2">
+            <img src="img/logo-6.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 1)" style="background-color: brown;">&#10094;sssssssssssssssssssssssss</a>
+        <a class="next" onclick="plusSlides(1, 1)" style="background-color: brown;">&#10095;sssssssssssssssssss</a>
+    </div>
+
+    <script>
+        var slideIndex = [1, 1];
+        var slideId = ["mySlides1", "mySlides2"]
+        showSlides(1, 0);
+        showSlides(1, 1);
+
+        function plusSlides(n, no) {
+            showSlides(slideIndex[no] += n, no);
+        }
+        console.log(slideId, showSlides, "aaaaaa");
+
+        function showSlides(n, no) {
+            var i;
+            var x = document.getElementsByClassName(slideId[no]);
+            console.log(x, "--", i, "--", n, "--", no, "--", slideIndex, "--", slideId, "0000000000000");
+            if (n > x.length) {
+                console.log(n, "--", x, "--", x.length, "1111111");
+                slideIndex[no] = 1
+                console.log(slideIndex, "2222222222222");
+
+            }
+            if (n < 1) {
+                slideIndex[no] = x.length
+                console.log(slideIndex, "--", x, "33333333333333");
+
+            }
+            for (i = 0; i < x.length; i++) {
+                console.log(i, "--", x, "--", x.length, "4444444444444");
+
+                x[i].style.display = "none";
+                console.log(i, "--", x, "--", x.length, "555555555555555");
+
+            }
+            x[slideIndex[no] - 1].style.display = "block";
+            console.log(n, "--", x, "--", x.length, "--", slideIndex, "66666666666");
+            console.log(slideId, "bbbbbbb");
+
+
+        }
+    </script>
+
+</body>
+
+</html>

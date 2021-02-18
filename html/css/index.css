@@ -535,7 +535,7 @@ input[type="submit"] {
 }
 
 .dot,
-.dot1 {
+.dot-1 {
     cursor: pointer;
     height: 10px;
     width: 10px;
@@ -552,7 +552,7 @@ input[type="submit"] {
 }
 
 .active,
-.dot:hover {
+.dot-1:hover {
     background-color: #33CC66;
 }
 
